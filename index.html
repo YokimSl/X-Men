@@ -12,15 +12,20 @@
     />
 
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
   </head>
   <body>
-    <header class="cabecalho"></header>
+    <header class="cabecalho">
+        <img  class="logo" src="src/imagens/logo.svg" alt="Logo X-men">
+
+    </header>
 
     <main class="selecao-de-personagens">
       <section class="personagens">
         <h1 class="titulo">Selecione um Personagem</h1>
         <ul class="lista-de-personagens">
-          <li class="personagem" id="ciclope">
+          <li class="personagem selecionado" id="ciclope">
             <img
               src="src/imagens/card-ciclope.jpg"
               alt="Personagem Ciclope Do X-men"
@@ -77,11 +82,11 @@
           </li>
         </ul>
       </section>
-      <section class="personagem-selecionados">
+      <section class="personagem-selecionado">
         <img
           src="src/imagens/card-ciclope.png"
           alt="Personagem Selecionado"
-          class="personagem-selecionado"
+          class="personagem-grande"
         />
 
         <div class="informacoes-personagem">
