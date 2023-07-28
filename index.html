@@ -11,70 +11,69 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/styles.css">
-    <link rel="stylesheet" href="src/css/responsivo.css">
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
   </head>
   <body>
     <header class="cabecalho">
-        <img  class="logo" src="src/imagens/logo.svg" alt="Logo X-men">
-
+      <img class="logo" src="src/imagens/logo.svg" alt="Logo X-men" />
     </header>
 
     <main class="selecao-de-personagens">
       <section class="personagens">
         <h1 class="titulo">Selecione um Personagem</h1>
         <ul class="lista-de-personagens">
-          <li class="personagem selecionado" id="ciclope">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope">
             <img
               src="src/imagens/card-ciclope.jpg"
               alt="Personagem Ciclope Do X-men"
             />
           </li>
 
-          <li class="personagem" id="jean-gray">
+          <li class="personagem" id="jean-grey" data-name="Jean Grey">
             <img
               src="src/imagens/card-jean-grey.jpg"
               alt="Personagem jean-gray Do X-men"
             />
           </li>
 
-          <li class="personagem" id="lince-negra">
+          <li class="personagem" id="lince-negra" data-name="Lince Negra">
             <img
               src="src/imagens/card-lince-negra.jpg"
               alt="Personagem lince-negra Do X-men"
             />
           </li>
 
-          <li class="personagem" id="tempestade">
+          <li class="personagem" id="tempestade" data-name="Tempestade">
             <img
               src="src/imagens/card-tempestade.jpg"
               alt="Personagem tempestade Do X-men"
             />
           </li>
 
-          <li class="personagem" id="vampira">
+          <li class="personagem" id="vampira" data-name="Vampira">
             <img
               src="src/imagens/card-vampira.jpg"
               alt="Personagem vampira Do X-men"
             />
           </li>
 
-          <li class="personagem" id="wolverine">
+          <li class="personagem" id="wolverine" data-name="Wolverine">
             <img
               src="src/imagens/card-wolverine.jpg"
               alt="Personagem Wolverine Do X-men"
             />
           </li>
 
-          <li class="personagem" id="noturno">
+          <li class="personagem" id="noturno" data-name="Noturno">
             <img
               src="src/imagens/card-noturno.jpg"
               alt="Personagem noturno Do X-men"
             />
           </li>
 
-          <li class="personagem" id="magneto">
+          <li class="personagem" id="magneto" data-name=" Magneto">
             <img
               src="src/imagens/card-magneto.jpg"
               alt="Personagem magneto Do X-men"
@@ -92,11 +91,11 @@
         <div class="informacoes-personagem">
           <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
           <p class="descricao-personagem" id="descricao-personagem">
-            Ele tem o poder de disparar rajadas ópticas por um acidente que
-            aconteceu com ele quando criança, mas não consegue controlá-los
           </p>
         </div>
       </section>
     </main>
+
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
